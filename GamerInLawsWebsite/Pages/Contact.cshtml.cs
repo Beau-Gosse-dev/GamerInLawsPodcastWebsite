@@ -8,11 +8,11 @@ using Microsoft.Extensions.Logging;
 
 namespace GamerInLawsWebsite.Pages
 {
-    public class TeamModel : PageModel
+    public class ContactModel : PageModel
     {
-        private readonly ILogger<TeamModel> _logger;
+        private readonly ILogger<ContactModel> _logger;
 
-        public TeamModel(ILogger<TeamModel> logger)
+        public ContactModel(ILogger<ContactModel> logger)
         {
             _logger = logger;
         }
